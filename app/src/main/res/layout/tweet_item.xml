@@ -5,7 +5,8 @@
     android:id="@+id/tweet_body"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp">
+    android:layout_margin="5dp"
+    android:textColor="@color/black">
 
     <ImageView
         android:id="@+id/profileImage"
@@ -50,4 +51,18 @@
         android:layout_marginEnd="3dp"
         android:layout_toEndOf="@+id/userNameTextView"
         android:text="TextView" />
+
+    <TextView
+        android:id="@+id/atName_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_toEndOf="@+id/userNameTextView"
+        android:layout_toRightOf="@id/userNameTextView"
+        android:text="TextView"
+        android:textColor="@color/dark_grey"
+        android:textSize="10sp" />
 </RelativeLayout>
